@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event_list_details"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loader Info"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/usernameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HubSpot Username/Email"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/passwordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HubSpot Password"
+        android:inputType="textPassword"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/dashboardsEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HubSpot Dashboards (boardIDs) [1234,1235,1255]"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/linksEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Other links (URL) [http://google.com,http://bbc.co.uk]"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/timeoutEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Time between pages (in seconds) [60]"
+        android:inputType="number"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

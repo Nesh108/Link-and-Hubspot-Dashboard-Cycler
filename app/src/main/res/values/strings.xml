@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hubspot Loader</string>
+    <string name="base_url">https://app.hubspot.com/reports-dashboard/1618882/view/</string>
+</resources>
